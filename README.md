@@ -16,7 +16,8 @@ In conclusion, density-based clustering is favored for our dataset due to outlie
  perform well over clusters with different densities.
 - OPTICS: It excels at detecting clusters of varying densities and can manage larger datasets compared to DBSCAN. Additionally, the epsilon parameter is relatively straightforward to set with a default value, simplifying parameter tuning.
 Conversely, OPTICS demands more memory due to its use of a priority queue (Min Heap) to identify the next closest data point during processing. It falters if density drops between clusters are absent.
-- HDBSCAN
+- HDBSCAN: It places emphasis solely on densely concentrated points, capable of creating significant clusters even with low-density components. Additionally, it necessitates just one parameter. However, HDBSCAN's efficacy diminishes beyond 50 to 100 dimensions. Furthermore, insufficient data size can lead to indistinct cluster separation.
+  
 # Centroid-Based Clustering method used:
 - K-means
   
