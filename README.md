@@ -20,3 +20,6 @@ Conversely, OPTICS demands more memory due to its use of a priority queue (Min H
   
 # Centroid-Based Clustering method used:
 - K-means: K-means is the centroid-based clustering, which requires one parameter, however it is sensitive the its own required parameter and sensitive to outliers.
+
+# Results of comparison
+![Uploading image.png…]()
