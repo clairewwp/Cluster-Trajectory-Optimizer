@@ -27,3 +27,5 @@ The DBSCAN outcome is produced after 18 iterations, owing to the complexity in d
 HDBSCAN demands a sole parameter, the minimum cluster size, delivering optimal outcomes when set to three; resulting in five paths and a 4.03% inaccuracy. In contrast, the K-means output exhibits significantly higher overall error due to its inability to effectively manage outliers or noise.
 
 ![results of comparison](https://github.com/clairewwp/Data-Analyst-Trajectory-Cluster-Optimizer/assets/104426974/7e2043f4-e9d4-42f6-b690-cdf171003dd6)
+# Utilizing Tableau to present the selected paths
+![visulization of the paths ](https://github.com/clairewwp/Data-Analyst-Trajectory-Cluster-Optimizer/assets/104426974/de10b6cc-516b-49dd-a46f-68603618f9ea)
