@@ -19,5 +19,4 @@ Conversely, OPTICS demands more memory due to its use of a priority queue (Min H
 - HDBSCAN: It places emphasis solely on densely concentrated points, capable of creating significant clusters even with low-density components. Additionally, it necessitates just one parameter. However, HDBSCAN's efficacy diminishes beyond 50 to 100 dimensions. Furthermore, insufficient data size can lead to indistinct cluster separation.
   
 # Centroid-Based Clustering method used:
-- K-means
-  
+- K-means: K-means is the centroid-based clustering, which requires one parameter, however it is sensitive the its own required parameter and sensitive to outliers.
