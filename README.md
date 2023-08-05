@@ -10,7 +10,10 @@ Density-based clustering prioritizes density over distance. DBSCAN is notable, e
 In conclusion, density-based clustering is favored for our dataset due to outlier resilience. While K-means and Hierarchical methods are simpler, they're sensitive to noise and outliers. Given our spatial data, density-based methods are the better fit.
 # 
 # Density-Based Clustering methods used:
-- DBSCAN
+- DBSCAN:
+  The cluster does not have to be spherical shapes to be identified, and the number of clusters does not have to be pre-defined. Moreover, it is insensitive to outliers.
+  However, DBSCAN is sensitive to its two required parameters, and fine-tuning them takes time and requires deep understanding on the dataset. In addition, it does not
+ perform well over clusters with different densities.
 - OPTICS
 - HDBSCAN
 # Centroid-Based Clustering method used:
