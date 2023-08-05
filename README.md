@@ -1,2 +1,11 @@
 # Data Analyst for Trajectory Data
-The project aim to explore the Optimization of Different Density-Based Clustering Methods to Evaluate the Aggregation of Observed Paths from Trajectories
+The project aims to explore the optimization of different Density-Based Clustering Methods to evaluate the aggregation of observed paths from trajectories
+
+# 
+# Density-Based Clustering methods used:
+- DBSCAN
+- OPTICS
+- HDBSCAN
+# Centroid-Based Clustering method used:
+- K-means
+  
