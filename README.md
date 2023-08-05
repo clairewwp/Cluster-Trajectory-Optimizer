@@ -22,4 +22,5 @@ Conversely, OPTICS demands more memory due to its use of a priority queue (Min H
 - K-means: K-means is the centroid-based clustering, which requires one parameter, however it is sensitive the its own required parameter and sensitive to outliers.
 
 # Results of comparison
-![Uploading image.png…]()
+
+![results of comparison](https://github.com/clairewwp/Data-Analyst-Trajectory-Cluster-Optimizer/assets/104426974/7e2043f4-e9d4-42f6-b690-cdf171003dd6)
