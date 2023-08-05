@@ -22,5 +22,8 @@ Conversely, OPTICS demands more memory due to its use of a priority queue (Min H
 - K-means: K-means is the centroid-based clustering, which requires one parameter, however it is sensitive the its own required parameter and sensitive to outliers.
 
 # Results of comparison
+The DBSCAN outcome is produced after 18 iterations, owing to the complexity in defining and fine-tuning the necessary hyperparameters for optimal results. Consequently, when Eps equals or exceeds 0.3, the error escalates notably from about 4.21% to 11.94%, eventually reaching 51.33%. OPTICS, requiring one fewer parameter than DBSCAN, yields excellent results in just three iterations, demonstrating a reasonable path count and minimal errors.
+
+HDBSCAN demands a sole parameter, the minimum cluster size, delivering optimal outcomes when set to three; resulting in five paths and a 4.03% inaccuracy. In contrast, the K-means output exhibits significantly higher overall error due to its inability to effectively manage outliers or noise.
 
 ![results of comparison](https://github.com/clairewwp/Data-Analyst-Trajectory-Cluster-Optimizer/assets/104426974/7e2043f4-e9d4-42f6-b690-cdf171003dd6)
